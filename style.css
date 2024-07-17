@@ -47,6 +47,9 @@ nav ul {
 /******** HOME *******/
 .home {
   background-color: #D4D1B1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   height: 768px;
   overflow: hidden;
 }
@@ -174,12 +177,11 @@ nav ul {
   justify-items: center;
   align-content: space-between;
   align-items: flex-start;
-  height: 100px;
   width: 50%;
-  min-width: 350px;
-  max-width: 800px;
-  ;
-
+  min-width: 10%;
+  max-width: 90%;
+  height: auto;
+  display: block;
   left: 10%;
   bottom: 300px;
   z-index: 100;
@@ -196,8 +198,7 @@ nav ul {
 }
 
 #social-links a {
-  width: 25%;
-  /* If new social links are added this value needs to be reduced proportionally*/
+  width: 18%;
   height: auto;
   max-width: 150px;
   display: flex;
