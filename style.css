@@ -1,0 +1,448 @@
+
+
+
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* navigation */
+nav {
+  height: 30px;
+  background: none;
+  width: 100%;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 16px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+
+nav a{
+  padding: 0 30px;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: yellow;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/******** HOME *******/
+.home{
+  background-color: #019d9b;
+  height: 768px;
+  overflow: hidden;
+}
+
+#logo{
+  color: #ffffff;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#slider-social-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  left: 1000px;
+}
+
+/* Slider */
+.slider-wrapper {
+  position: relative;
+  bottom: 300px;
+  left: 10%;
+  font-size: 3vw;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:200;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.slider {
+  flex-shrink: 1;
+  height:3vw;
+  overflow: hidden;
+}
+
+.slider div{
+  color: white;
+  height:3vw;
+  margin-bottom: 3vw;
+  text-align: left;
+  white-space: normal;
+}
+
+.slider-text1 {
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {margin-top: -24vw;}
+  5% {margin-top: -18vw;}
+  25% {margin-top: -18vw;}
+  30% {margin-top: -12vw;}
+  50% {margin-top: -12vw;}
+  55% {margin-top: -6vw;}
+  75% {margin-top: -6vw;}
+  80% {margin-top: 0px;}
+  100% {margin-top: 0px;}
+
+}
+
+/* Social Links */
+
+#social-links {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: space-between;
+  align-items: flex-start;
+  height: 100px;
+  width: 50%;
+  min-width: 350px;
+  max-width: 800px;;
+
+  left: 10%;
+  bottom: 300px;
+  z-index: 100;
+}
+
+#social-links img{
+  width: 100%;
+  margin: 2%;
+  padding: 2%;
+}
+
+#social-links img:hover{
+  margin: 0;
+}
+
+#social-links a{
+  width: 25%; /* If new social links are added this value needs to be reduced proportionally*/
+  height: auto;
+  max-width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#portrait {
+  position: relative;
+  left: 50%;
+  bottom: 800px;
+  padding-right: 35px;
+  z-index: 0;
+}
+
+@media (max-width: 1000px) {
+  #social-links{
+    bottom: 30%
+  }
+
+  .slider-wrapper{
+    font-size: 5vw;
+    bottom: 30%;
+  }
+
+  .slider{
+    height: 5vw;
+  }
+
+  .slider div{
+    height: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  @keyframes slide {
+    0% {margin-top: -40vw;}
+    5% {margin-top: -30vw;}
+    25% {margin-top: -30vw;}
+    30% {margin-top: -20vw;}
+    50% {margin-top: -20vw;}
+    55% {margin-top: -10vw;}
+    75% {margin-top: -10vw;}
+    80% {margin-top: 0px;}
+    100% {margin-top: 0px;}
+  }
+}
+
+/******** ABOUT *******/
+.about{
+  display: flex;
+  background-color: white;
+  height: auto;
+  min-height: 768px;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  align-items: center;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+.about-text  {
+  min-width: 10px;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0px 50px;
+  max-width: 400px;
+}
+h2.about-header{
+  color:#019d9b;
+  font-weight: 200;
+  font-size: 45px;
+}
+
+.about img {
+  max-width: 500px;
+  min-width: 300px;
+  flex:1;
+  padding: 0px 40px;
+}
+
+.about-text ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .about-text {
+    max-width: 1000px;
+  }
+  h2.about-header{
+    text-align: center;
+  }
+  .about img{
+    padding: 20px 40px 0 40px;
+  }
+  #details{
+    padding-bottom: 40px;
+    width: 90%;
+  }
+  .about-text ul{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-text li{
+    padding: 0 2% 0 2%;
+    min-width: 10px;
+  }
+}
+
+/******** SKILLS *******/
+#skills{
+  background-color: #e0225e;
+  height: 768px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-wrapper{
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-end;
+  flex-wrap: wrap;
+}
+
+#skills h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 40px; 
+  text-align: left;
+  margin: 0;
+
+}
+
+.rating-block{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#tool-and-craft{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#tool-and-craft .rating-block{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#skills ul{
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#skills li:hover{
+  background-color: #d85082; 
+  }
+
+#skills li{
+  padding: 10px 20px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 0 0 0;
+  line-height: 1;
+}
+
+.rating{
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#skills li:hover .rating{
+  width: 130px;
+}
+
+.fa-star{
+  color: white;
+  font-size: 75%;
+}
+
+@media (max-width: 925px) {
+#skills{
+  height: auto;
+}
+
+  .skills-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  #skills h2{
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .rating-block{
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  #tool-and-craft{
+    width: 100%;
+  }
+}
+
+/******** TRAVEL *******/
+.travel{
+  display: flex;
+  background-color: #f3efe0;
+  height: 768px;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  align-items: center;
+  align-items: center;
+  }
+.travel ul{
+  flex:1;
+  padding: 0px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #019d9b;
+  list-style: none;
+  transform: translateX(80px);
+}
+
+.travel li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.travel img{
+  flex: 5;
+  height: 90%;
+  padding: 50px;
+}
+
+@media (max-width: 1200px) {
+  .travel{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .travel li {
+    font-size: 25px;
+    text-align: center;
+    padding: 1%;
+  }
+  .travel ul{
+    flex:1;
+    margin-top: 3%;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0%;
+    transform: translateX(0px);
+    width: 80%;
+  }
+  .travel img{
+    flex:1;
+    padding: 0 40px 5% 0px;
+    width: 110%;
+    transform: translateY(10px);
+  }
+}

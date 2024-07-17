@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.23 102.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2.23px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>YouTube</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Main_Text" data-name="Main Text">
+      <g>
+        <circle class="cls-1" cx="51.12" cy="51.12" r="50"/>
+        <path class="cls-2" d="M72.68,40.21a5.65,5.65,0,0,0-4-4c-3.51-.95-17.58-.95-17.58-.95s-14.07,0-17.58.95a5.65,5.65,0,0,0-4,4c-.94,3.53-.94,10.9-.94,10.9s0,7.37.94,10.9a5.65,5.65,0,0,0,4,4C37,67,51.12,67,51.12,67S65.19,67,68.7,66a5.65,5.65,0,0,0,4-4c.94-3.53.94-10.9.94-10.9S73.62,43.75,72.68,40.21ZM46.51,57.81V44.43l11.76,6.69Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
