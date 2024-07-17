@@ -192,7 +192,9 @@ nav ul {
   position: relative;
   align-items: center;
   resize: both;
-  /* bottom: 800px; */
+  bottom: 800px;
+  padding-right: 25px;
+  padding-left: 25px;
   z-index: 0;
   max-width: 90%;
   overflow: hidden;
