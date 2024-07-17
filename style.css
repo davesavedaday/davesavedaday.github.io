@@ -190,7 +190,7 @@ nav ul {
 
 #portrait {
   position: relative;
-  align-items: center;
+  margin: 0 auto;
   resize: both;
   bottom: 800px;
   padding-right: 25px;
@@ -200,7 +200,11 @@ nav ul {
   overflow: hidden;
 }
 
-
+#portrait img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 @media (max-width: 1000px) {
   #social-links {
