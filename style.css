@@ -189,12 +189,18 @@ nav ul {
 }
 
 #portrait {
-  position: relative;
-  left: 2%;
-  bottom: 800px;
-  padding-right: 50px;
-  padding-left: 25px;
-  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; Optional: adjust padding as needed */
+}
+
+#portrait img {
+  max-width: 100%;
+  height: auto;
+  /* Ensures the image scales while maintaining aspect ratio */
+  border-radius: 8px;
+  /* Optional: adds rounded corners */
 }
 
 @media (max-width: 1000px) {
