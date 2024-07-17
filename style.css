@@ -190,30 +190,16 @@ nav ul {
 
 #portrait {
   position: relative;
-  left: 2%;
+  align-items: center;
+  resize: both;
   bottom: 800px;
-  padding-right: 50px;
+  padding-right: 25px;
   padding-left: 25px;
   z-index: 0;
-  max-width: 90%;
+  max-width: 50%;
   overflow: hidden;
 }
 
-/* #portrait {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  padding: 20px;
-  max-width: 100%;
-}
-
-#portrait img {
-  max-width: 80%;
-  max-height: 500px;
-  width: auto;
-  height: auto;
-  border-radius: 8px; */
-}
 
 
 @media (max-width: 1000px) {
