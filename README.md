@@ -1,2 +1,1 @@
-# danielstabile.com
-My personal website
+# Dave's Personal Website
