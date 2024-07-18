@@ -483,7 +483,6 @@ h1.skills-header {
   overflow: hidden;
   font-family: 'Josefin Sans', sans-serif;
   align-items: center;
-  align-items: center;
 }
 
 .projects ul {
@@ -494,11 +493,15 @@ h1.skills-header {
   color: #D4D1B1;
   list-style: none;
   transform: translateX(80px);
+  text-align: center;
+  align-items: center;
 }
 
 .projects li {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
+  font-size: 30px;
+  align-items: center;
 }
 
 .projects img {
@@ -516,7 +519,7 @@ h1.skills-header {
   }
 
   .projects li {
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
     padding: 1%;
   }
@@ -524,6 +527,7 @@ h1.skills-header {
   .projects ul {
     flex: 1;
     margin-top: 3%;
+    text-align: center;
     padding: 20px 0 20px 0;
     margin-bottom: 0%;
     transform: translateX(0px);
@@ -531,7 +535,7 @@ h1.skills-header {
   }
 
   .projects h2 {
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     padding: 1%;
     font-weight: 300;
@@ -544,7 +548,7 @@ h1.skills-header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 50%;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     background-color: white;
